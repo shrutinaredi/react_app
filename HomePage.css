@@ -1,0 +1,241 @@
+.HomePage{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.HomePage p{
+  color: white;
+}
+.HomePage .nochar{
+color: white;
+text-align: center;
+display: flex;
+justify-content: center;
+font-size: 30px;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+background-color: rgb(61, 62, 63);
+vertical-align: middle;
+}
+
+
+nav .rightnav {
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+width: 100%;
+vertical-align: middle;
+
+}
+
+nav .rightnav a{
+
+padding: 10px;
+color:lightblue;    
+
+}
+
+nav .rightnav button{
+margin-left: 0px;
+margin-top: 0px;
+font-family: sans-serif;
+background-color: rgb(61, 62, 63);
+color: lightblue;
+border-radius: 10px;
+font-size: 20px ;
+border: none;
+text-align: center;
+}
+
+.Namebar{
+  color: white;   
+  padding : 10px;
+  font-size: 40px;
+  margin-left: 2%;
+
+
+}
+
+.greeting{
+  font-size: 25px;
+  color: lightblue;
+}
+
+
+.search-wrapper{
+  margin: 0px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  padding-right: 10px; 
+  width: 100%;  
+}
+
+
+
+.search-wrapper input{
+  border:2px solid rgb(61, 62, 63);
+  border-radius: 7px;
+  margin-right: 5%;
+}
+
+
+.sortlabel{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+  }
+.sortlabel label{
+  /* background-color:  rgb(61, 62, 63); */
+  padding: 5px 5px;
+  margin:10px 10px;
+  border-radius: 5px; 
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sortlabel select{
+color: black;
+/* box-shadow: 10px 10px  skyblue; */
+}
+
+.sortlabel select:active select:hover{
+  outline-color: skyblue;
+ }
+.sortlabel select{
+  border-radius: 5px;
+  margin: 10px 10px; 
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.list-wrapper{
+  display: inline-flexbox;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  /* background-color:rgb(61, 62, 63); */
+  color:  black;
+  
+}
+
+.list-wrapper .Headings{
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+
+  }
+
+.list-wrapper .person-item{
+  align-items: center;
+  vertical-align: middle;
+  color:white;
+  margin: 3px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom:  1px solid white;
+  border-left:  1px solid white;
+  /* border-bottom:  1px solid white; */
+  padding: 10px;
+  background-color: rgb(61, 62, 63);
+
+  border-radius: 5px ;
+}
+.list-wrapper .person-item .detailsdelete{
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+.list-wrapper .person-item .detailsdelete button{
+  margin-left: 10px;
+  background-color: rgb(61, 62, 63);
+  border-radius: 8px;
+  width:100%;
+  color: white;
+}
+.list-wrapper .person-item{
+  background-color: rgb(61, 62, 63);
+}
+.list-wrapper a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    border-radius: 4px;
+
+}
+
+.list-wrapper a:hover{
+  background-color: coral;
+  opacity: 0.5;
+}
+
+
+.list-wrapper .Details{
+  color: black;
+  border-radius: 4px;
+}
+
+.pagination{
+display: flex;
+width: 72%;
+margin: auto;
+margin-bottom: 50px;
+margin-top: 20px;
+/* border-top: 2px solid white; */
+background-color: rgb(61, 62, 63);
+color: white;
+
+list-style: none;
+padding:10px;
+justify-content: space-between;
+border-radius: 10px;
+}
+
+.pagination .selected a{
+background-color: skyblue;
+padding: 2px;
+text-decoration:none;
+}
+
+.pagination li{
+  padding: 6px;
+}
+.HomePage .listbox{
+display: flex;
+justify-content: space-between;
+}
+.HomePage .filter{
+color: white;
+ width: 25%;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+/*display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center; */
+} 
+
+.filter label{
+/* width: 100px; */
+width:100px;
+margin-bottom:5px;
+}
+
+.filter select{
+margin-bottom:20px;
+width:100px;
+/* margin-right: 20px; */
+}
