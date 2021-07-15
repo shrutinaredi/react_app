@@ -1,0 +1,45 @@
+.popup{
+    position: fixed;
+    top: 85%;
+    left: 60% ;
+    width: 60%;
+    height: 0vh;
+    background-color: pink;
+
+    display: flex;
+    justify-content: left;
+    align-items: center
+}
+
+.popup-inner{
+    background-color:rgb(41, 39, 39);
+    position: relative;
+    padding: 14px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    border-radius: 10px;
+    justify-content:  left;
+    align-items: center;
+    color: white;
+}
+
+.popup-inner    .results .p{
+        font-size: 1px;
+}
+
+
+.popup-inner .close_btn{
+    position: absolute;
+    background-color: lightblue ;
+    top:0px;
+    font-size: 15px;
+    border-radius: 7px;;
+    color:black;
+    right: 16px;
+}
+
+.results .label{
+    color: lightblue;
+    margin-right: 20px;
+} 
